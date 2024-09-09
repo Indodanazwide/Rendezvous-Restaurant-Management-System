@@ -1,0 +1,62 @@
+/* @import './base.css'; */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+/*      ----- Utilities -----       */
+h1 {
+  font-size: 4rem;
+  margin: 0 0 1rem;
+  color: #b2a43b;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 0 0 1rem;
+  color: #b2a43b;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 0 0 1rem;
+  color: #b2a43b;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1rem;
+  margin: 1rem 0;
+  color: #b5a4a9;
+  line-height: 1.8;
+  letter-spacing: 0.1rem;
+}
+
+a {
+  color: #b5a4a9;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #b2a43b;
+}
+
+li {
+  list-style: none;
+}
